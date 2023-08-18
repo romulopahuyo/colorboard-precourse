@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+
+
+}
+
+h1{
+    
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h2{
+    
+    font-size: 60px;
+    text-align: center;
+    color: tomato;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+h1:hover{
+
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 20px pink, 10px -10px 20px pink, 10px -10px 20px pink;
+    font-style: italic;
+
+}
+
+
+h2:hover{
+
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 10px 10px 20px greenyellow, 10px -10px 20px greenyellow, 10px -10px 20px greenyellow;
+    font-style: italic;
+
+}
+
+.box {  
+   height: 250px;  
+   width: 250px;
+   background-color: black;
+   margin: 10PX;
+   transition:background-color 2s ;
+   border-radius: 12px;
+   box-shadow: 0 0 10px white;
+   border: 1px solid whitesmoke;
+}
+
+.box:hover{
+    transition: background-color 0s;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    background-color: rgb(26, 25, 25);
+    padding-top: 100px;
+
+}
+
+.box.box:nth-child(5n):hover:hover{
+    background-color: rgb(117, 101, 101);
+}
+.box.box:nth-child(5n+1):hover:hover{
+    background-color: rgb(128, 105, 0);
+}
+.box.box:nth-child(5n+2):hover:hover{
+    background-color: rgb(51, 128, 0);
+}
+.box.box:nth-child(5n+3):hover:hover{
+    background-color: rgb(0, 115, 128);
+}
+.box.box:nth-child(5n+4):hover:hover{
+    background-color: rgb(128, 0, 115);
+}
+.box.box:nth-child(5n+5):hover:hover{
+    background-color: rgb(128, 0, 0);
+}
+
